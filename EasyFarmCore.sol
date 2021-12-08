@@ -8,7 +8,7 @@ import "./SafeMath.sol";
 import "./Ownable.sol";
 import "./ReentrancyGuard.sol";
 import "./EasyFarmToken.sol";
-import "./interface/IEasyFarmStrategy.sol";
+import "./IEasyFarmStrategy.sol";
 
 contract EasyFarmCore is Ownable, ReentrancyGuard {
     using SafeMath for uint256;
