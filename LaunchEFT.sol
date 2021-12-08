@@ -1,11 +1,11 @@
 // SPDX-License-Identifier: GPL-v3
 pragma solidity 0.8.10;
 
-import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "@openzeppelin/contracts/utils/Address.sol";
-import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
-import "@openzeppelin/contracts/utils/math/SafeMath.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "./IERC20.sol";
+import "./Address.sol";
+import "./SafeERC20.sol";
+import "./SafeMath.sol";
+import "./Ownable.sol";
 import "./EasyFarmToken.sol";
 
 contract LaunchEFT is Ownable {
